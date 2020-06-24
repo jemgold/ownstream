@@ -1,15 +1,12 @@
 {
-  "name": "ownstream",
-  "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "studio",
+    "www"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "9.4.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "dev": "yarn --cwd www dev",
+    "build": "yarn --cwd www build",
+    "start": "yarn --cwd www start"
   }
 }

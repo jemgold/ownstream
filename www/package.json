@@ -1,0 +1,29 @@
+{
+  "name": "www",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mux/mux-node": "^2.8.1",
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/client": "^1.149.16",
+    "@sanity/image-url": "^0.140.19",
+    "@theme-ui/presets": "^0.3.0",
+    "@types/theme-ui": "^0.3.4",
+    "micro-cors": "^0.1.1",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "swr": "^0.2.3",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "typescript": "^3.9.5"
+  }
+}
