@@ -1,1 +1,1 @@
-export const Layout = ({ preview, children }) => <>{children}</>
+export const Layout = ({ preview = false, children }) => <>{children}</>
